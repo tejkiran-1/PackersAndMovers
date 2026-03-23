@@ -1,0 +1,139 @@
+:root {
+  --primary-color: #0d3b66; /* Deep Blue / Navy */
+  --secondary-color: #f48024; /* Orange */
+  --light-gray: #f8f9fa;
+  --dark-gray: #343a40;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--dark-gray);
+  overflow-x: hidden;
+}
+
+.text-primary {
+  color: var(--primary-color) !important;
+}
+
+.text-secondary {
+  color: var(--secondary-color) !important;
+}
+
+.bg-primary {
+  background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+  background-color: var(--secondary-color) !important;
+}
+
+.btn-primary {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #d16a1b !important;
+  border-color: #d16a1b !important;
+}
+
+.btn-outline-primary {
+  color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--secondary-color) !important;
+  color: white !important;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+  padding: 1rem 0;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--primary-color) !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: var(--primary-color) !important;
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--secondary-color) !important;
+}
+
+.hero-section {
+  background: linear-gradient(rgba(13, 59, 102, 0.8), rgba(13, 59, 102, 0.8)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80') center/cover;
+  color: white;
+  padding: 100px 0;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.service-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  transition: transform 0.3s;
+  height: 100%;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 60px 0 20px;
+}
+
+.footer-link {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: var(--secondary-color);
+}
+
+.contact-info-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.contact-info-icon {
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+  margin-right: 15px;
+}
+
+/* Quote Form */
+.quote-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.quote-card input, .quote-card select {
+  margin-bottom: 15px;
+}
