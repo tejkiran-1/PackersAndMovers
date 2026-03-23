@@ -1,5 +1,6 @@
 import { Container, Row, Col, Card } from 'react-bootstrap';
 import { FaCheckCircle, FaUsers, FaTrophy, FaHandshake } from 'react-icons/fa';
+import aboutImage from '../images/packers-and-movers-about.jpg';
 
 const About = () => {
   return (
@@ -15,7 +16,7 @@ const About = () => {
         <Row className="align-items-center mb-5 pb-4">
           <Col lg={6} className="mb-4 mb-lg-0">
             <img 
-              src="https://images.unsplash.com/photo-1517559115797-152e0d37e199?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src={aboutImage}
               alt="Moving Team" 
               className="img-fluid rounded shadow-lg"
             />
